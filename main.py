@@ -1,7 +1,7 @@
 import os  
 import shutil
 
-path  = input("Enter the path...\n")
+path  = input("Enter the path of the folder which you would like to arrange...\n")
 list  = os.listdir(path)
 
 for file in list:
